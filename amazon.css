@@ -1,0 +1,1544 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.firstheader
+{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo
+{
+    height: 40px;
+    width: 80px;
+    /* padding-top: 10px; */
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.logo:hover
+{
+    border: 1px solid white;
+}
+.all
+{
+    height: 40px;
+    width: 50px;
+    background-color: #e6e6e6;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+.search
+{
+    height: 40px;
+    width: 600px;
+    background-color: white;
+}
+.searchicon
+{
+    height: 40px;
+    width: 50px;
+    background-color: #febd69;
+    border-radius: 0px 5px 5px 0;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.searchflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location
+{
+    cursor: pointer;
+}
+.location:hover
+{
+    border: 1px solid white;
+}
+.location h5
+{
+    color: gray;
+    font-size: 10px;
+}
+.location h4
+{
+    color: white;
+    font-size: 12px;
+}
+.locationflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.i.fa-solid.fa-location-dot {
+    color: white;
+    font-size: 16px;
+}
+.all h5
+{
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+span {
+    color: white;
+    font-size: 20px;
+}
+h5 {
+    color: white;
+    font-size: 10px;
+}
+h4
+{
+    color: white;
+    font-size: 12px;
+}
+.language
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+.language:hover
+{
+    border: 1px solid white;
+}
+.language h5
+{
+    padding-left: 5px;
+}
+.cart
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.cart:hover
+{
+    border: 1px solid white;
+}
+.singin
+{
+    cursor: pointer;
+    height: 50px;
+    padding-top: 10px;
+}
+.singin:hover
+{
+    border: 1px solid white;
+}
+.returns
+{
+    cursor: pointer;
+    padding-top: 10px;
+}
+.returns:hover
+{
+    border: 1px solid white;
+}
+
+/* secondsection starts */
+.secondheader
+{
+    height: 50px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 60px;
+}
+.bar:hover
+{
+    border-bottom: 1px solid white;
+}
+.bar h5
+{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.list ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+}
+.list li a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    text-align: center;
+    height: 50px;
+    font-size: 14px;
+}
+.list li a:hover
+{
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.applogo
+{
+    height: 50px;
+    width: 60px;
+}
+.applogo img
+{
+    height: 100%;
+    width: 100%;
+}
+.shoppingapp
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.shoppingapp:hover
+{
+    border: 1px solid white;
+}
+.amazon
+{
+    height: 4970px;
+    width: 100%;
+    background-color: #e3e6e6;
+}
+
+/* banner start */
+.banner
+{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/OHL/23/Central/BAU/NOv/Desktop_Hero_3000x1200_2_2x._CB574373355_.jpg);
+    height: 400px;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+/* first section first colom */
+.startdeals
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+}
+.startdeals h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px;
+}
+.stardealflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.mobile img
+{
+    padding-left: 20px;
+}
+.mobile button
+{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    height: 25px;
+    width: 55px;
+    margin-left: 10px;
+}
+.dealbutton button a
+{
+    color: white;
+}
+.dealflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.deallink a
+{
+    color: #4597a6;
+    font-size: 14px;
+}
+.stardealflex a
+{
+    color: #cc0c39;
+    text-decoration: none;
+}
+.startdeals a
+{
+    color: black;
+    text-decoration: none;
+    padding: 20px 0 0 0;
+}
+.alldeals
+{
+    font-size: 12px;
+    padding: 10px 0 20px 10px;
+    margin-top: 20px;
+}
+.alldeals a
+{
+    color: #4597a6;
+}
+.alldeals a:hover
+{
+    color: red;
+}
+
+/* firstsection second colom */
+.electronics
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+}
+.electronics h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px;
+}
+.electronicsflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.earphone
+{
+    width: 150px;
+    height: 150px;
+    padding-top: 30px;
+}
+.earphone img
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+.earphone button
+{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    height: 25px;
+    width: 55px;
+    /* margin-left: 10px; */
+}
+.earphone a
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #4597a6;
+}
+.electronics a
+{
+    color: #4597a6;
+    padding: 20px 0 0 0;
+    text-decoration: none;
+    
+}
+
+/* first section 3rd colom */
+.revamp
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+}
+.revamp h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px; 
+}
+.cushion img
+{
+    height: 130px;
+    width: 160px;
+    padding: 10px 0 0 20px;
+}
+.cushion a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.homeflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.revamp a
+{
+  text-decoration: none;
+  color: black;
+  padding: 20px 0 0 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* first section 4th colom */
+.styles
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+}
+.styles h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px;  
+}
+.clothing img
+{
+    height: 130px;
+    width: 160px;
+    padding: 10px 0 0 20px; 
+}
+.clothing a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.fashionflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.styles a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0 0 20px;
+}
+.firstparent
+{
+    position: relative;
+}
+.firstsectionflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -250px;
+    left: 20px;
+    margin-left: 5px;
+}
+
+/* second section */
+/* second section first colom */
+
+.headphones
+{
+    height: 450px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.headphones h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px;
+}
+.headphonesflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.headimage
+{
+    /* height: 150px; */
+    width: 170px;
+    padding: 30px 0 0 20px;
+}
+.headimage img
+{
+    /* padding: 20px 0 0 20px; */
+    height: 100%;
+    width: 100%;
+}
+.headimage a 
+{
+    padding: 10px 0 0 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.headphones a
+{
+    color: black;
+    text-decoration: none;
+    padding: 30px 0 0 10px;
+}
+.headphonesflex a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* secondsection second colom */
+.appliances
+{
+    height: 450px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+}
+.appliances h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 20px;
+}
+.appliancesflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homeappliance
+{
+    width: 170px;
+    /* height: 120px; */
+    padding: 30px 20 0 20px;
+}
+.homeappliance img
+{
+    width: 100%;
+    height: 100%;
+}
+.homeappliance a
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.appliances a
+{
+    color: black;
+    padding: 20px 0 0 10px;
+    text-decoration: none;
+}
+.appliancelink
+{
+    padding: 20px 0 0 20px;
+}
+.appliancelink a
+{
+    color: #4597a6;
+}
+
+/* second section 3rd colom */
+.improvement
+{
+    height: 450px;
+    width: 360px;
+    background-color: white;
+    margin-right: 10px;
+}
+.improvement h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 18px; 
+}
+.needs
+{
+    /* height: 150px; */
+    width: 170px;
+    padding: 10px 0 0 20px;
+}
+.needs img
+{
+    height: 100%;
+    width: 100%;
+}
+.needs a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+}
+.improvementflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.improvement a
+{
+  text-decoration: none;
+  color: black;
+  padding: 20px 0 0 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.improvementlink a
+{
+    color: #4597a6;
+}
+
+/* second section 4th colom */
+.Professional
+{
+    height: 450px;
+    width: 360px;
+    background-color: white;
+}
+.Professional h3
+{
+    padding: 20px 20px 0 10px;
+    font-size: 18px;  
+}
+.tools img
+{
+    height: 130px;
+    width: 170px;
+    padding: 10px 0 0 20px; 
+}
+.tools a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.Professionalflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Professional a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0 0 20px;
+    font-size: 12px;
+}
+.Professional a:hover
+{
+    color: red;
+}
+.firstparent
+{
+    position: relative;
+}
+.secondsectionflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 730px;
+    left: 20px;
+    margin-left: 5px;
+}
+.toollink
+{
+    padding-top: 10px;
+}
+.toollink a
+{
+    color: #4597a6;
+    padding: 10px 20px;
+}
+
+/* 3rd section start */
+
+.thirdparent
+{
+    position: relative;
+}
+.thirdsection
+{
+    height: 400px;
+    width: 97%;
+    background-color: white;
+    /* margin: auto; */
+    margin-top: 20px;
+    position: absolute;
+    top: 670px;
+   margin-left: 20px;
+}
+.thirdsectionheading h3
+{
+    padding: 20px 0 0 30px;
+    font-size: 20px;
+}
+.thirdsectiondeals
+{
+    margin-top: 15px;
+}
+.thirdsectiondeals a
+{
+    text-decoration: none;
+    color: #4597a6;
+    margin-left: 15px;
+}
+.dealsflex
+{
+    display: flex;
+    align-items: center;
+}
+.dealsbox
+{
+    height: 270px;
+    width: 250px;
+    background-color: #f7f8f8;
+}
+.dealsimage
+{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.dealsimage img
+{
+    height: 100%;
+    width: 100%;
+}
+.dealsimage button
+{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid white;
+}
+.dealsimage a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.todaysdeallink
+{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.todaysdeallink a
+{
+    color: #4597a6;
+    text-decoration: none;
+}
+.dealmainflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* fourth section */
+.accessories
+{
+    height: 370px;
+    width: 97%;
+    background-color: white;
+    margin-top: 20px;
+    position: absolute;
+    top: 1600px;
+    margin-left: 20px;
+}
+.accessoriesheading h3
+{
+    padding: 30px 0 0 30px;
+    font-size: 22px;
+}
+.accessoriesheading a 
+{
+    padding: 30px 0 0 30px;
+    text-decoration: none;
+}
+.accessoriesheading
+{
+    display: flex;
+}
+.accessoriesimage
+{
+   height: 200px;
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 30px;
+}
+.accessoriesimage img
+{
+    height: 100%;
+    width: 100%;
+    margin: 25px;
+}
+/* fifth section */
+.fifthparent
+{
+    position: relative;
+}
+.fifthsection
+{
+    height: 330px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    margin: 0 25px 0 5px
+}
+.fifthheading
+{
+    display: flex;
+}
+.fifthheading h3
+{
+    padding: 30px 0 0 30px;
+    font-size: 22px; 
+}
+.fifthheading a
+{
+    padding: 30px 0 0 30px;
+    text-decoration: none; 
+}
+.trendyimage
+{
+    padding: 20px;
+    cursor: pointer;
+}
+/* sixth section */
+/* 6th section first colom */
+.sixthsection
+{
+    height: 350px;
+    width: 100%;
+    /* background-color: white; */
+    position: absolute;
+    top: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sixthheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;  
+}
+.pocketfriendly
+{
+    height: 470px;
+    width: 360px;
+    background-color: white; 
+}
+.clothimage
+{
+    /* height: 120px; */
+    width: 200px;
+    margin: 20px 10px 0 20px;
+}
+.clothimage img
+{
+    height: 100%;
+    width: 100%;
+}
+.fashionflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pocketfriendly a 
+{
+    text-decoration: none;
+    padding: 50px 0 0 10px;
+    margin-top: 30px;
+    color: black;
+    font-size: 12px;
+}
+.sixthlink a 
+{
+    text-decoration: none;
+    padding: 40px 0 0 25px;
+    font-size: 12px;
+    color: #4597a6;
+}
+.sixthlink a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* sixth section second colom */
+.bestseller
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+}
+.besrsellerheading h3
+{
+    padding: 20px 20px 0 20px;
+    font-size: 20px;
+}
+.bestsellerimage
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/* sixth section third colom */
+.prime
+{
+    height: 470px;
+    width: 360px;
+    background-color: white;
+}
+.primeheading h3
+{
+    padding: 20px 20px 0 20px;
+    font-size: 20px;
+}
+.primeflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.primeimage
+{
+    /* height: 120px; */
+    width: 150px;
+    margin: 20px 10px;
+}
+.primeimage img
+{
+    height: 100%;
+    width: 100%;
+}
+.primeimage a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.primeanchor a 
+{
+    color: #4597a6;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.primeanchor a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* sixth section fourth colom */
+.birthday
+{
+    height: 470px;
+    width: 360px;
+    background-color: white; 
+}
+.birthdayheading h3
+{
+    padding: 20px 20px 0 20px;
+    font-size: 20px;
+}
+.birthdayflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.birthdayimage
+{
+    width: 150px;
+    margin: 20px 10px;
+}
+.birthdayimage img
+{
+    width: 100%;
+}
+.birthdayimage a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.birthdayanchor a 
+{
+    text-decoration: none;
+    color: #4597a6;
+    font-size: 12px;
+    padding: 50px 0 0 20px;
+}
+.birthdayanchor a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* seventh section */
+.computer
+{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 1230px;
+}
+.computerheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.computerimage
+{
+    margin: 20px 0px;
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.computerimage img
+{
+    height: 100%;
+    width: 100%;
+    margin: 14px;
+}
+/* eigth section */
+.fashion
+{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 1600px;
+}
+.fashionheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px; 
+}
+.fashionheading a
+{
+    color: #4597a6;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.fashionheading
+{
+    display: flex;
+}
+.fashionimage
+{
+    margin: 50px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+/* ninth section */
+.homefurnishing
+{
+    position: absolute;
+    top: 1970px;
+    height: 280px;
+    width: 1000px;
+    margin-left: 200px;
+}
+.homefurnishing img
+{
+    height: 100%;
+    width: 100%;
+}
+/* tenth section */
+/* tenth section first colom */
+.tenthsection
+{
+    width: 100%;
+    position: absolute;
+   top: 2270px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.essential
+{
+  height: 450px;
+  width: 350px;
+  background-color: white;
+  /* position: absolute;
+  top: 1970px; */
+}
+.essentialheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.essentialflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.essentialimage
+{
+    width: 150px;
+    /* margin: 20px; */
+}
+.essentialimage img
+{
+    width: 100%;
+    margin: 10px;
+}
+.essentialimage a 
+{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.essentialanchor a
+{
+    color: #4597a6;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+}
+.essentialanchor a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* tenth section second colom */
+.minitv
+{
+    height: 450px;
+  width: 350px;
+  background-color: white;
+  margin-left: 10px;
+}
+.minitv h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.miniimage
+{
+    height: 300px;
+    width: 330px;
+    margin: 15px;
+}
+.miniimage img
+{
+    height: 100%;
+    width: 100%;
+}
+.minitv a
+{
+    color: #4597a6;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.minitv a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* tenth section third colom */
+.wedding
+{
+    height: 450px;
+  width: 350px;
+  background-color: white;
+  margin-left: 10px;
+}
+.weddingheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.weddingflex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weddingimage
+{
+    width: 150px;
+}
+.weddingimage img
+{
+    width: 100%;
+    margin: 10px 10px 0 10px;
+}
+.weddingimage a 
+{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.weddinganchor a
+{
+    color: #4597a6;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.weddinganchor a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/* tenth section fourth colom */
+.customer
+{
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    margin-left: 10px; 
+}
+.customerheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.customerimage
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.customeranchor a 
+{
+    color: #4597a6;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+/* eleventh section */
+.books
+{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 2740px;
+}
+.booksheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px; 
+}
+.booksimage
+{
+    height: 250px;
+    /* width: 200px; */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.booksimage img
+{
+    height: 100%;
+    width: 100%;
+    /* margin: 10px; */
+}
+/* twelth section */
+.toys
+{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 3100px;
+}
+.toysheading h3
+{
+    padding: 20px 10px 0 25px;
+    font-size: 20px;
+}
+.toysimages
+{
+    height: 200px;
+    margin: 20px;
+}
+.toysimages img
+{
+  height: 100%;
+  margin-right: 15px;
+}
+/* signin section */
+.signin
+{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+hr
+{
+    font-weight: 300;
+    color: gray;
+}
+.signinbox
+{
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    /* border: 5px solid black; */
+    margin: 3rem auto;
+}
+.signin h4
+{
+    color: black;
+    padding-left: 30px;
+}
+.signin button
+{
+    height: 30px;
+    width: 280px;
+    background-color: yellow;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.signin button a
+{
+    color: black;
+    text-decoration: none;
+}
+.newcustomer h5
+{
+    color: black;
+    padding-left: 60px;
+}
+.newcustomer a 
+{
+    color: green;
+    font-size: 10px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.newcustomer
+{
+    display: flex;
+}
+/* back to top section */
+.top
+{
+    height: 40px;
+    width: 100%;
+    background-color: #37475a;
+}
+.topbox
+{
+    height: 25px;
+    width: 200px;
+    /* border: 2px solid white; */
+    margin: 10px auto;
+}
+.topbox a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* first footer */
+.firstfooter
+{
+    height: 540px;
+    width: 100%;
+    background-color: #232f3e;
+}
+.know
+{
+    margin-top: 60px;
+}
+.know h4
+{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footerlist
+{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;
+}
+.list1 ul li
+{
+    list-style: none;
+    margin-top: 5px;
+}
+.list1 ul li a
+{
+    color: #dbd6d0;
+    text-decoration: none;
+    font-size: 14px;
+}
+.list1 ul li a:hover
+{
+    text-decoration: underline;
+}
+.firstfooter hr
+{
+    margin-top: 40px;
+    color:#dbd6d0;
+}
+.footerlogo
+{
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+.footerlogo img
+{
+    height: 100%;
+    width: 100%;
+}
+.logoflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.logoflex button
+{
+    height: 30px;
+    width: 120px;
+    background-color: #232f3e;
+    border: 2px solid white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.logoflex button a
+{
+    color: white;
+    text-decoration: none;
+}
+.countrylist ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.countrylist ul li
+{
+    list-style: none;
+}
+.countrylist ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+}
+.countrylist ul li a:hover
+{
+    text-decoration: underline;
+}
+/* second footer */
+.secondfooter
+{
+    height: 300px;
+    width: 100%;
+    background-color:#131a22;
+}
+.toplist
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.listhead h5 a
+{
+        font-weight: 200;
+        padding-left: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+}
+.listhead h5 a:hover
+{
+    text-decoration: underline;
+}
+.list3 ul
+{
+    padding-left: 20px;
+}
+.list3 ul li
+{
+    list-style: none;
+}
+.list3 ul li a
+{
+    color: #90938c;
+    font-size: 12px;
+    text-decoration: none;
+}
+.list3 ul li a:hover
+{
+    text-decoration: underline;
+}
